@@ -33,7 +33,6 @@ RUN \
     /tmp/ferdium.deb -L \
     "https://github.com/ferdium/ferdium-app/releases/download/${FERDIUM_VERSION}/Ferdium-linux-$(echo $FERDIUM_VERSION | sed 's/^v//g')-amd64.deb" && \
   dpkg -i ferdium.deb && \
-  sed -i 's|</applications>|  <application title="Ferdium*" type="normal">\n    <maximized>yes</maximized>\n  </application>\n</applications>|' /etc/xdg/openbox/rc.xml && \
   echo "**** cleanup ****" && \
   apt-get autoclean && \
   rm -rf \
