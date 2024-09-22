@@ -171,7 +171,7 @@ exim4-daemon-light                                                            4.
 exponential-backoff                                                           3.1.1                                               npm                          
 express                                                                       4.21.0                                              npm                          
 fastest-levenshtein                                                           1.0.16                                              npm                          
-ferdium                                                                       6.7.6                                               deb                          
+ferdium                                                                       6.7.7                                               deb                          
 ferdium-recipes                                                               1.0.1                                               npm                          
 ffmpeg                                                                        7:5.1.6-0+deb12u1                                   deb                          
 file                                                                          1:5.44-3                                            deb                          
