@@ -6,6 +6,7 @@ project_url: "https://ferdium.org/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/ferdium-logo.png"
 project_blurb: "[Ferdium]({{ project_url }}) is a desktop app that helps you organize how you use your favourite apps by combining them into one application."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Chat,Social"
 project_blurb_optional_extras_enabled: false
 # supported architectures
 available_architectures:
