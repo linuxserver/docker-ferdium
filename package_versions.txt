@@ -76,7 +76,7 @@ evdev                                                                         1.
 exim4-base                                                                    4.98.2-1                                deb                          
 exim4-config                                                                  4.98.2-1                                deb                          
 exim4-daemon-light                                                            4.98.2-1                                deb                          
-ferdium                                                                       7.1.0                                   deb                          
+ferdium                                                                       7.1.1                                   deb                          
 ferdium-recipes                                                               1.0.1                                   npm                          
 file                                                                          1:5.46-5                                deb                          
 findutils                                                                     4.10.0-3                                deb                          
