@@ -1,1 +1,1 @@
-ferdium --no-sandbox
+ferdium --ozone-platform=wayland --no-sandbox
