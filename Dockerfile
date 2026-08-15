@@ -31,7 +31,7 @@ RUN \
   echo "**** install from ferdium from deb ****" && \
   if [ -z ${FERDIUM_VERSION+x} ]; then \
     FERDIUM_VERSION=$(curl -sX GET "https://api.github.com/repos/ferdium/ferdium-app/releases/latest" \
-    | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+    | jq -r '.tag_name'); \
   fi && \
   cd /tmp && \
   curl -o \
