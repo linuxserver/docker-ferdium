@@ -81,12 +81,13 @@ docker-ce-cli                                                                 5:
 docker-compose-plugin                                                         5.4.0-1~debian.13~trixie                deb                         
 dpkg                                                                          1.22.22                                 deb                         
 dunst                                                                         1.12.2-1                                deb                         
+electron-webauthn-linux                                                       0.1.1                                   npm                         
 evdev                                                                         1.9.3                                   python                      
 exim4-base                                                                    4.98.2-1+deb13u4                        deb                         
 exim4-config                                                                  4.98.2-1+deb13u4                        deb                         
 exim4-daemon-light                                                            4.98.2-1+deb13u4                        deb                         
 fastapi                                                                       0.141.1                                 python                      
-ferdium                                                                       7.1.2                                   deb                         
+ferdium                                                                       7.2.0                                   deb                         
 ferdium-recipes                                                               1.0.1                                   npm                         
 file                                                                          1:5.46-5                                deb                         
 findutils                                                                     4.10.0-3                                deb                         
@@ -1082,6 +1083,7 @@ sigs.k8s.io/randfill                                                          v1
 sigs.k8s.io/structured-merge-diff/v6                                          v6.3.2                                  go-module                   
 sigs.k8s.io/yaml                                                              v1.6.0                                  go-module  (+4 duplicates)  
 six                                                                           1.17.0                                  python                      
+sqlite3                                                                       5.1.6                                   npm                         
 sqv                                                                           1.3.0-3+b2                              deb                         
 ssl-cert                                                                      1.1.3                                   deb                         
 starlette                                                                     1.6.0                                   python                      
