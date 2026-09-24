@@ -1,0 +1,10 @@
+#! /bin/bash
+
+BIN=/usr/bin/ferdium-real
+
+# Wayland check
+if [ "${PIXELFLUX_WAYLAND,,}" == "true" ]; then
+  WAYLAND="--ozone-platform=wayland"
+fi
+
+${BIN} ${WAYLAND} --no-sandbox "$@"
